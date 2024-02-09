@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-for music lovers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><img src = "logo.png" width="20px" ><span style="font-size: small;">Spotify</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href = "#   ">Account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="songList">
+        <h1 style="font-size: 20px;">your favourite songs</h1>
+        <div class="songItemContainer">
+        <div class="songItem">
+          <img  alt="1">
+          <span class="SongName">Let me Love you</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="fa-solid songItemPlay fa-1x fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img  alt="1">
+          <span class="SongName">Let me Love you</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="2" class="fa-solid songItemPlay fa-1x fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img  alt="1">
+          <span class="SongName">Let me Love you</span>
+          <span class="songlistplay"><span class="timestamp">05:34<i id="3" class="fa-solid songItemPlay fa-1x fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img  alt="1">
+          <span class="SongName">Let me Love you</span>
+         <span class="songlistplay"><span class="timestamp">05:34<i id="4" class="fa-solid songItemPlay fa-1x fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img  alt="1">
+          <span class="SongName">Let me Love you</span>
+         <span class="songlistplay"><span class="timestamp">05:34<i id="5" class="fa-solid songItemPlay fa-1x fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+          <img  alt="1">
+          <span class="SongName">Let me Love you</span>
+         <span class="songlistplay"><span class="timestamp">05:34<i id="6" class="fa-solid songItemPlay fa-1x fa-circle-play"></i></span></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+        </div>
+        <div class="bottom">
+          <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">   
+          <div class="icons">
+            <i class="fa-solid  fa-1x fa-backward" id="previous"></i>
+            <i class="fa-solid  fa-1x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-1x  fa-forward" id="next"></i>
+          </div>
+          <div class="songInfo">
+            <img src="playing.gif" width="30px" alt="" id="gif"><span style="font-size: small;" id="SongName"></span>
+            </div>
+        </div>
+    
+    <script src="https://kit.fontawesome.com/d040a272ef.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
